@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/blue.jpg);
+}
+
+.header-content {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/blue.jpg);
+}
+
+.name-and-info h1 {
+    font-size: 3em;
+    margin: 10px 0;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.name-and-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #000000;
+}
+
+.profile-photo img {
+    border-radius: 20px; /* Adjust the radius to curve only the corners */
+    width: 150px;
+    height: 200px;
+    object-fit: contain; /* Show the entire image with aspect ratio */
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-section {
+    text-align: left;
+    padding: 50px;
+    background: white;
+    color: rgb(0, 0, 0);
+}
+
+.welcome-header {
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-photo img {
+        width: 120px;
+        height: 120px;
+    }
+    .name-and-info h1 {
+        font-size: 2em;
+    }
+}
+
+.date {
+    float: right;
+    font-weight: bold;
+    color: #666; 
+}
+
+.date2 {
+    float: right;
+    color: #666; 
+}
+
+.title-date {
+    display: flex;
+    size:40px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0; 
+}
+
+.title-date2 {
+    display: flex;
+    size:40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0; 
+}
+
+h3 {
+    margin-bottom: 0; /* Reduces space below the title */
+}
+
+p {
+    margin-top: 5px; /* Reduces space above the instructor text */
+}
+

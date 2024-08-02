@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chengxun Ren - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="profile-photo">
+                <img src="images/ren2.jpg" alt="Profile Photo">
+            </div>
+            <div class="name-and-info">
+                <h1>Chengxun Ren</h1>
+                <p>Email: <a href="mailto:cren8@illinois.edu">cren8@illinois.edu</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="welcome-section">
+        <div class="welcome-header">
+            <h2>Welcome to My Personal Website!</h2>
+        </div>
+        <p>Hi there! I'm Chengxun Ren, Frank. I have a deep-rooted passion for 
+            the intricate worlds of mathematics, computer science, and statistics. The elegance of 
+            mathematical proofs, the creativity of coding, and the power of data analysis continually 
+            inspire me. I find immense satisfaction in unraveling complex problems and transforming 
+            data into actionable insights. <br> <br>
+            When I'm not immersed in the world of numbers and code, I find rejuvenation in a 
+            diverse range of activities. Traveling to new places, exploring different cultures, 
+            and experiencing new adventures is a constant source of inspiration. Physical activities 
+            like working out, running, tennis, and basketball help me maintain a healthy balance 
+            and clear my mind. Music and anime is another passion of mine, allowing me to relax and connect 
+            with different emotions. These hobbies provide essential counterbalance to 
+            my intellectual pursuits, allowing me to recharge and return to my work with renewed 
+            energy and creativity. <br> <br>
+            This website showcases my academic background, professional experiences, projects, and achievements. 
+            Please explore to learn more about me and my work. (●ˇ∀ˇ●)</p>
+    </section>
+
+    <section class="education-section">
+        <h2>Education Background</h2>
+        <div class="title-date">
+            <h3><strong>University of Illinois Urbana-Champaign (IL USA)</strong></h3>
+            <span class="date">2023 - 2026 (expected)</span>
+        </div>
+        <p>Major in <strong>Mathematics</strong><br> Minor in <strong>Statistics</strong> <br>
+        GPA: <strong>4.0</strong></p>
+    </section>
+
+    <section class="experience-section">
+        <h2>Internship Experience</h2>
+        <div class="title-date">
+            <h3>Jiangsu Communications Holding Co. Ltd. (On site & Remote)</h3>
+            <span class="date">Oct 2023 - present</span>
+        </div>
+        <p><strong>Data Scientist Intern in Software Development Department</strong>
+        <ul>
+            <li>Analyzed <strong>14 research directions</strong> based on raw data focusing on traffic flow, 
+                highway tolls, congestion patterns, accident trends, and vehicle composition.</li>
+            <li>Effectively utilized a suite of tools to create a streamlined data processing workflow.</li>
+                    <ul>
+                        <li>Used <strong>Kafka</strong> to handle real-time data streaming, ensuring continuous 
+                            data flow from various sources.</li>
+                        <li>Leveraged the high-performance capabilities of the data stored in <strong>ClickHouse</strong> for 
+                            complex analytical queries and extracted meaningful insights using <strong>DBeaver</strong>.</li>
+                        <li>Used <strong>Postman</strong> to facilitate the testing and automation of API requests, allowing 
+                            smooth data exchange and integration across different applications.</li>
+                        <li>Employed <strong>Kaggle</strong> to explore and experiment with diverse datasets, enhancing 
+                            my machine learning models and analytical skills.</li>
+                    </ul>
+            <li>
+                <div class="title-date">
+                    <strong>Led Research Project on Toll Evasion Vehicle Detection.</strong> </>
+                    <span class="date2">Oct 2023 - Mar 2024</span>
+                </div>
+                <ul>
+                    <li>Leveraged <strong>supervised and unsupervised machine learning techniques</strong> to 
+                        identify and predict 3 kinds of toll evasion behaviors based on ETC and MTC 
+                        transaction data and surveillance data.</li>
+                    <li>Developed a <strong>fraud detection system</strong> to identify fake toll-free logistics vehicles 
+                        with <strong>90.5% accuracy</strong>. Utilized <strong>Borderline-SMOTE</strong> and 
+                        <strong>ChiMerge</strong> algorithms for data preprocessing, followed by constructing a 
+                        <strong>decision tree model</strong> using the CART algorithm and Gini coefficient.</li>
+                    <li>Implemented <strong>Gaussian Mixture Model (GMM)</strong> with the <strong>Expectation-Maximization (EM)
+                        </strong> algorithm to estimate reasonable load intervals for each vehicle type and driving cycle. 
+                        Developed a system to detect toll evasion vehicles accordingly by identifying outliers, 
+                        with iterative improvement based on feedback from detected cases.</li>
+                    <li>The project was <strong>accepted</strong> by Jiangsu Ninghang Expressway Co., LTD in June 2024 and 
+                        <strong>deployed</strong> on the Changchun-Shenzhen Expressway in Aug 2024.</li>
+                </ul>
+            <li>
+                <div class="title-date">
+                    <strong>Led research project on traffic flow prediction at toll stations.</strong> </>
+                    <span class="date2">Mar 2024 - Aug 2024</span>
+                </div>
+                <ul>
+                    <li>Built a <strong>Spatial-Temporal Synchronous Graph Convolutional Network (STSGCN) model
+                    </strong> using <strong>TensorFlow</strong> to forecast traffic flow at toll stations.</li>
+                    <li>Trained the model using the 5-minute interval historical traffic flow data 
+                        collected from highway gantries within a 100-kilometer radius of the toll station, 
+                        achieving a <strong>Mean Absolute Percentage Error (MAPE)</strong> of 
+                        approximately <strong>14%</strong>.</li>
+                    <li>Designed a <strong>toll station traffic peak warning system</strong> based on the STSGCN 
+                        model to enhance traffic management and reduce congestion.</li>
+                    <li>This project is currently <strong>under review for acceptance</strong> by Jiangsu Ninghu 
+                        Expressway Co., Ltd. and is being piloted at 5 highway toll stations.</li>
+                </ul>
+        </ul>
+    </section>
+
+    <section class="project-section">
+        <h2>Project Experience</h2>
+        <div class="title-date">
+            <h3>Rust based stock analysis program - CS128 honor</h3>
+            <span class="date"><strong>Feb 2024 - May 2024</strong></span>
+        </div>
+        <p><strong>Instructor: Prof. Michael Nowak and Prof. Jule Schatz</strong>
+        <ul>
+            <li>Developed a command-line stock analysis tool using <strong>Rust</strong> leveraging the clap crate for efficient argument parsing.</li>
+            <li>Engineered a robust data pipeline to fetch real-time stock data from Yahoo Finance API.</li>
+            <li>Implemented Random Forest to identify potential investment opportunities and risks.</li>
+            <li>Visualized complex financial data using plotters and text plots enabling intuitive interpretation of market trends.</li>
+            <li>Built a predictive model capable of generating buy/sell recommendations based on rigorous quantitative analysis.</li>
+        </ul>
+        <div class="title-date">
+            <h3>CrownTrade - CS124 honor</h3>
+            <span class="date"><strong>Sep 2023 - Dec 2023</strong></span>
+        </div>
+        <p><strong>Instructor: Prof. Geoffrey Challen</strong>
+        <ul>
+            <li>Led the development of a comprehensive stock analysis platform employing web scraping, machine learning, and neural networks in <strong>Python</strong> to forecast stock prices and quantify market risk.</li>
+            <li>Architected a robust data pipeline integrating live market data and financial information from diverse sources to fuel predictive models.</li>
+            <li>Built the backend infrastructure utilizing Yahoo Finance API ensuring efficient data acquisition and processing.</li>
+            <li>Designed and implemented a frontend interface using <strong>React</strong> providing real-time insights and interactive visualizations.</li>
+            <li>Collaborated effectively with cross-functional teams to deliver a high-quality product that meets user needs.</li>
+        </ul>
+    </section>
+
+    <section class="honors-section">
+        <h2>Honors and Awards</h2>
+        <ul>
+            <li><strong>Dean's List</strong> (2023 fall, 2024 spring)</li>
+            <li><strong>Paul Erdos UI Freshman Math Contest</strong> (2023): 13/213 overall ranking.</li>
+            <li><strong>American Mathematics Competitions (AMC) 12</strong> (2022): 150/150 points, top 1% Honor Roll of Distinction; AIME 12/15 points, qualified for USAMO.</li>
+            <li><strong>American Regions Mathematics League (ARML)</strong> (2022): Global TOP 100 and National Gold Teams; National Individual TOP 100.</li>
+            <li><strong>AP Scholar with Distinction</strong> (2022): Scores: Calculus BC - 5, Chemistry - 5, Environmental Science - 5, Statistics - 5, Physics C: Mechanics - 5, Physics C: Electricity and Magnetism - 5, Psychology - 4.</li>
+            <li><strong>Sir Isaac Newton Contest (SIN)</strong> (2022): Global Award; National Gold.</li>
+            <li><strong>AAPT Physics Bowl Contest Division II</strong> (2022): National Silver.</li>
+            <li><strong>International Regions Mathematics League (IRML)</strong> (2021): 1st Place Team International Division; Awarded for distinguished contribution as a member of Team China.</li>
+            <li><strong>Euclid Mathematics Contest</strong> (2021): Distinction in Euclid Mathematics Contest.</li>
+            <li><strong>National Academic Quiz Tournaments (NAQT) China</strong> (2021): Gold Award.</li>
+            <li><strong>Chinese National Youth Artificial Intelligence Competition</strong> (2021): 1st Place Award in Intelligent Robot.</li>
+            <li><strong>Jiangsu Youth Science and Technology Model Competition</strong> (2021): 1st Place Award in VEX-EDR Robotics Engineering Challenge.</li>
+            <li><strong>Chinese High School Mathematics League</strong> (2020): 1st place in Jiangsu Province</li>
+        </ul>
+    </section>
+
+    <section class="teaching-section">
+        <h2>Teaching and Course Assistant</h2>
+            <div class="title-date">
+                <h3>Course Associate of CS128 at UIUC</h3>
+                <span class="date"><strong>2024 - present</strong></span>
+            </div>
+            <ul>
+                <li>Hold 6 weekly online tutoring hours to answer student’s questions about assignments of Introduction to Computer Science II.</li>
+                <li>Responsible for developing course materials like machine problems and answering students’ questions in the online forum.</li>
+            </ul>
+            <div class="title-date">
+                <h3>Course Assistant of CS124 at UIUC</h3>
+                <span class="date"><strong>Jan 2024 - May 2024</strong></span>
+            </div>
+            <ul>
+                <li>Hold 20 weekly online tutoring hours to answer students' questions about assignments of Introduction to Computer Science I.</li>
+                <li>Contributed to 3 java machine problem test cases</li>
+            </ul>
+    </section>
+
+<!--
+    <section class="activities-section">
+        <h2>Extracurricular Activities</h2>
+        <div class="title-date">
+            <h3>Mathematical Advancement Through Research and Idea Exchange</h3>
+            <span class="date"><strong>2023 - present</strong></span>
+        </div>
+        <div class="title-date">
+            <h3>The Special Interest Group for Math and Algorithms</h3>
+            <span class="date"><strong>2023 - present</strong></span>
+        </div>
+        <div class="title-date">
+            <h3>Society of Industrial and Applied Mathematics</h3>
+            <span class="date"><strong>2023 - present</strong></span>
+        </div>
+        <div class="title-date">
+            <h3>Illinois Mathematics Lab Outreach</h3>
+            <span class="date"><strong>2023 - 2024</strong></span>
+        </div>
+        <div class="title-date">
+            <h3>Actuarial Science Club</h3>
+            <span class="date"><strong>2023 - 2024</strong></span>
+        </div>
+    </section>
+-->
+
+    <section class="activities-section">
+        <h2>Extracurricular Activities</h2>
+        <ul>
+            <li>Mathematical Advancement Through Research and Idea Exchange</li>  
+            <li>The Special Interest Group for Math and Algorithms</li>
+            <li>Society of Industrial and Applied Mathematics</li>  
+            <li>Illinois Mathematics Lab Outreach</li>  
+            <li>Actuarial Science Club</li>  
+        </ul>
+    </section>
+
+    <section class="skills-section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages: Python, C++, Java, Rust, Haskell, HTML, CSS, JavaScript, MATLAB, R</li>  
+            <li>Software & Tools: React, PyTorch, TensorFlow, Git, Kafka, DBeaver, ClickHouse, Postman</li>
+        </ul>
+            
+    </section>
+</body>
+</html>
