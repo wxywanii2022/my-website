@@ -35,7 +35,7 @@ body {
 
 .profile-photo img {
     border-radius: 20px; /* Adjust the radius to curve only the corners */
-    width: 150px;
+    width: 144px;
     height: 200px;
     object-fit: contain; /* Show the entire image with aspect ratio */
     border: 3px solid #fff;
